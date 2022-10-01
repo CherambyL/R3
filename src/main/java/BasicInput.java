@@ -13,8 +13,7 @@ public class BasicInput {
 
         int value = scnr.nextInt();
 
-        System.out.println("Enter double: ");// TODO Define char and string variables similarly
-
+        System.out.println("Enter double: ");
         double value2 = scnr.nextDouble();
 
         System.out.println("Enter character: ");
