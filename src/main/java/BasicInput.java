@@ -13,8 +13,7 @@ public class BasicInput {
 
         int value = scnr.nextInt();
 
-        System.out.println("Enter double: ");// TODO Define char and string variables similarly
-
+        System.out.println("Enter double: ");
         double value2 = scnr.nextDouble();
 
         System.out.println("Enter character: ");
@@ -23,17 +22,14 @@ public class BasicInput {
         System.out.println("Enter string: ");
         String s = scnr.next();
 
+
+
+
+
+
         System.out.println(value + " " + value2 + " " + ch + " " + s);
-
         System.out.println(s + " " + ch + " " + value2 + " " + value);
-
-    int value3 = (int)value2;
-        // TODO (1): Finish reading other items into variables, then output the four values on a single line separated by a space
-
-        // TODO (2): Output the four values in reverse
-
-        // TODO (3): Cast the double to an integer, and output that integer
-
+        int value3 = (int)value2;
         return;
     }
 }
