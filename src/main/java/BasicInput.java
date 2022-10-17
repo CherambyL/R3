@@ -25,11 +25,14 @@ public class BasicInput {
 
 
 
-
-
         System.out.println(value + " " + value2 + " " + ch + " " + s);
+
         System.out.println(s + " " + ch + " " + value2 + " " + value);
+
         int value3 = (int)value2;
+
+        System.out.println(value2 +" cast to an integer is "+ value3);
+
         return;
     }
 }
